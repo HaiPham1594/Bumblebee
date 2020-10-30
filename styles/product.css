@@ -1,0 +1,161 @@
+@font-face {
+  font-family: salsa;
+  src: url("../Fonts/Salsa/Salsa-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: barlow-medium;
+  src: url("../Fonts/Barlow/BarlowCondensed-Medium.ttf") format("truetype");
+}
+@font-face{
+  font-family: barlow-semiBold;
+  src: url("../Fonts/Barlow/BarlowCondensed-SemiBold.ttf");
+}
+@font-face {
+  font-family: barlow;
+  src: url("../Fonts/Barlow/BarlowCondensed-Regular.ttf");
+}
+@font-face {
+  font-family: calibri;
+  src: url("../Fonts/Calibri/calibri.ttf")
+}
+@font-face{
+  font-family: calibri-light;
+  src: url("../Fonts/Calibri/calibril.ttf");
+}
+@font-face{
+  font-family: cambria-bold;
+  src: url("../Fonts/Cambria/cambriab.ttf");
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  background: url("../img/Product/living_room_sofa_furniture_style_75503_1920x1080.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  height: 768px;
+}
+#logo1 {
+  width: 111px;
+  height: 91px;
+}
+.flex-container,
+ul {
+  display: flex;
+}
+.flex-container {
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 30px;
+  margin-left: 30px;
+  padding-top: 30px;
+}
+.menu {
+  margin-right: 30px;
+  margin-left: 30px;
+}
+.menu li {
+  list-style: none;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 10px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.flex-container a {
+  text-decoration: none;
+  color: white;
+  font-family: salsa;
+  font-size: 20px;
+}
+.menu a:hover {
+  border-bottom: 3px solid #f6b100;
+}
+.icon1 li {
+  list-style: none;
+  font-size: 20px;
+  color: white;
+}
+.wrapper-icon {
+  display: flex;
+  justify-content: center;
+}
+.small-icon {
+  display: flex;
+  flex-direction: column;
+  height: 530px;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  margin-top: 80px;
+}
+.small-icon a {
+  text-align: center;
+  margin: 0 150px;
+  /* padding: 0 100px 0 100px; */
+  /* width: 150px; */
+  height: 100px;
+}
+.small-icon a:hover {
+  text-decoration: none;
+}
+.small-icon:hover {
+  background: rgba(0, 0, 0, 0.5);
+}
+.small-icon a{
+  opacity: 0.5;
+  transition: all ease 0.4s;
+}
+.small-icon a:hover{
+  opacity: 1;
+}
+.wrapper img {
+  width: 65%;
+  height: 75%;
+}
+.wrapper p {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #f9f8f4;
+  padding: 50px 0 50px 100px;
+}
+
+footer > div {
+  overflow: hidden;
+  /* height: 200px; */
+  width: 25%;
+  /* border: 1px solid black; */
+  margin: 0 20px 0 20px;
+  /* text-align: left; */
+  /* padding: 30px */
+  padding-left: 10px;
+}
+.footer-col h5 {
+  border-left: 2px solid #F6B100;
+  padding-left: 5px;
+  margin-bottom: 20px;
+  font-family: barlow-medium;
+  font-size: 25px;
+}
+.footer-col p {
+  font-size: 13px;
+  font-family: calibri;
+}
+.footer-col span {
+  /* font-weight: bold; */
+  margin-right: 2px;
+  font-size: 26px;
+  font-family: calibri;
+}
+footer .detail{
+  font-family: calibri;
+  font-size: 15px;
+  line-height: 15px;
+}

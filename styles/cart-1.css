@@ -1,0 +1,85 @@
+@font-face {
+  font-family: salsa;
+  src: url("../Fonts/Salsa/Salsa-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: barlow-medium;
+  src: url("../Fonts/Barlow/BarlowCondensed-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: barlow-semiBold;
+  src: url("../Fonts/Barlow/BarlowCondensed-SemiBold.ttf");
+}
+@font-face {
+  font-family: barlow;
+  src: url("../Fonts/Barlow/BarlowCondensed-Regular.ttf");
+}
+@font-face {
+  font-family: calibri;
+  src: url("../Fonts/Calibri/calibri.ttf");
+}
+@font-face {
+  font-family: calibri-light;
+  src: url("../Fonts/Calibri/calibril.ttf");
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.formInput {
+  margin: auto;
+  margin-top: 78px;
+  width: 500px;
+  height: 180px;
+  border: 1px solid #7e7c7c;
+}
+.formInput p {
+  margin-left: 30px;
+  text-decoration-line: underline;
+  font-family: barlow-medium;
+  font-size: 15px;
+}
+.form-input {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* background-color: #7e7c7c; */
+}
+.form-input input {
+  width: 200px;
+  height: 25px;
+  margin: 5px 5px 5px 5px;
+  padding-left: 15px;
+  border: 2px solid #7e7c7c;
+  box-shadow: none;
+  outline: 0;
+}
+.form-input input:focus {
+  border-color: #f6b100;
+  outline: 0;
+  box-shadow: none;
+}
+.form-input input::-webkit-input-placeholder {
+  font-family: salsa;
+  color: #7e7c7c;
+}
+.form-input input:focus::-webkit-input-placeholder {
+  color: #f6b100;
+  /* font-family: salsa; */
+  font-size: 15px;
+}
+.form-input button {
+  width: 196px;
+  height: 30px;
+  background-color: #f04b4b;
+  color: white;
+  font-family: barlow;
+  font-size: 15px;
+  border-style: none;
+}
+.form-input button:hover {
+  cursor: pointer;
+}
+.form-input button:focus {
+  outline: 0;
+}
